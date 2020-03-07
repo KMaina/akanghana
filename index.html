@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron parent">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="jumbotron p-0 left">
+                <div class="overlay">
+                  <h1 class="text-center akan"><span class="flag">The Akan Naming</span></h1>
+                  <hr class="my-4">
+                  <p class="p-text">The Akan people of Ghana name their children after the day of the week
+                    they were born.</p>
+                    <p class="p-text">Akan is the language of the people called Akans. The Akans are the largest ethnic group in Ghana. According to the 2000,
+                    national population census the Ghanaian population is Akans.</p>
+                    <p class="p-text">These "day names" have further deeper meaning that connects individuals to their <span class="red">heart</span> and <span class="red">soul</span>
+                    this is because Akan names are not arbitrary but they are based on socio-cultural and contexts</p>
+                    <p class="q-text">Find out out your Akan name!</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 right">
+            <div class="panel col-sm-6 offset-sm-3">
+                    <div class="form-group top-form">
+                      <label for="century" class="labels">Century</label>
+                      <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="21">
+                    </div>
+                    <div class="form-group">
+                      <label for="year" class="labels">Year</label>
+                      <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+                    </div>
+                    <div class="form-group">
+                      <label for="month" class="labels">Month</label>
+                      <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
+                    </div>
+                    <div class="form-group">
+                      <label for="monthDay" class="labels">Day of month</label>
+                      <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
+                    </div>
+                    <form class="radio-button">
+                      <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                      <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                    </form>
+                    <br>
+                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="dayOfWeek();">Calculate Birthday</button></a>
+                    <h1 id="result"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <script src="js/script.js"></script>
+  </body>
+</html>
