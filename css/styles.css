@@ -1,0 +1,32 @@
+h1{
+  color: red;
+  text-align: left;
+}
+img{
+  float: left;
+}
+body{
+  background-color: black;
+}
+.row{
+  background-color: rgb(133, 192, 73);
+}
+.row{
+  background-color: black;
+}
+p{
+  color: darkblue;
+}
+.red{
+  color: red;
+}
+.p-text{
+  background-color: green;
+}
+.q-text{
+  background-color: green;
+}
+.overlay{
+  background-image: url('../akannamong.jpeg');image-align: center
+  background-repeat: no-repeat;
+}
